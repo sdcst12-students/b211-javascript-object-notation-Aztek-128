@@ -31,7 +31,7 @@ class yes():
         y = "".join(y)
         puns = weather["hourly"]["time"].index(y)
         temper = weather["hourly"]["temperature_2m"][puns]
-        print(f"The temperature is {temper} degrees celius")
+        print(f"The temperature is {temper} degrees celcius")
         return temper
         
 y = yes()
